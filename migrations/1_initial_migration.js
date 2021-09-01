@@ -1,5 +1,5 @@
-const Locker = artifacts.require("Locker");
+const AssetLocker = artifacts.require("AssetLocker");
 
 module.exports = function (deployer) {
-  deployer.deploy(Locker);
+  deployer.deploy(AssetLocker);
 };
